@@ -4002,7 +4002,7 @@ int DECL2 _daveConnectPLCTCP(daveConnection * dc) {
 
 	0xC0,		// Parameter requested TPDU-Size
 	1,		// Length of this parameter 
-	9,		// requested TPDU-Size 8=256 Bytes, 9=512 Bytes 
+	10,		// requested TPDU-Size 8=256 Bytes, 9=512 Bytes, 10=1024 bytes needed to use 960 bytes PDU on S7-1500 
     };	
 
     uc b243[]={
